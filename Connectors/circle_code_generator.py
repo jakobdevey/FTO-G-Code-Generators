@@ -291,8 +291,8 @@ def gen_code():
         # notify user that their file is ready
         popup = Label(root, text="Your G-code was generated successfully and can be found in your documents.").grid(row=13, column=0)
         # to erase previous error message
-        white3 = Label(root, text="                                                                                                                    "
-                                  "                                                                                                          ").grid(row=14, column=0)
+        white3 = Label(root, text="                                                                                                                    
+                                                                                                                                            ").grid(row=14, column=0)
 
 
     return
